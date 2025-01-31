@@ -40,6 +40,7 @@ for post in top_posts:
     try:
         response = client.create_tweet(text=tweet_content)
         print("Tweet posted successfully!")
+        print(tweet_content)
     except Exception as e:
         print(f"Error posting tweet: {e}")
 
