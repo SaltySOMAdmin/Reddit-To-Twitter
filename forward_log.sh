@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Variables
-LOG_FILE="log.txt"
-WEBHOOK_URL="" #discord webook URL
+LOG_FILE="/home/ubuntu/twitter/twitter_log.txt"
+# Load configuration file. Can replace with WEBHOOK_URL="https://yourWebhook.yaddayadda"
+source "/home/ubuntu/twitter/webhook.txt"  # Replace with the actual path to your config.txt file
 
 # Check if the log file exists
 if [ ! -f "$LOG_FILE" ]; then
