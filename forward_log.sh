@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Variables
-LOG_FILE="/home/ubuntu/twitter/twitter_log.txt"
+LOG_FILE="/home/ubuntu/Reddit-To-Twitter/twitter_log.txt"
 # Load configuration file. Can replace with WEBHOOK_URL="https://yourWebhook.yaddayadda"
-source "/home/ubuntu/twitter/webhook.txt"  # Replace with the actual path to your config.txt file
+source "/home/ubuntu/Reddit-To-Twitter/webhook.txt"  # Replace with the actual path to your config.txt file
 
 # Check if the log file exists
 if [ ! -f "$LOG_FILE" ]; then
