@@ -1,4 +1,4 @@
-# reddit-to-twitter
+# Reddit-to-Twitter
  
  
 #Copy top post of the day from a subreddit to a twitter account (I will never call it X!). 
@@ -23,7 +23,7 @@
 
 #5) Create a file called config.py and save it in the same directory as your script. Enter Reddit and Twitter api credentials.
 
-#6) Configure forward_log.sh with a discord webhook if you want logs forwarded. 
+#6) Configure forward_log.sh with a discord webhook if you want logs forwarded. Enter the webhook in a .txt in the same directory or directly into the code.
 	
 #7) Setup a schedule to run
 
@@ -31,10 +31,10 @@
 	
 	#Twitter Post daily at noon
 	
-	0 17 * * * /bin/bash -c "source /home/ubuntu/twitter/bin/activate && python3 /home/ubuntu/twitter/topPostDay.py" >> /home/ubuntu/twitter/twitter_log.txt 2>&1 
+	0 17 * * * /bin/bash -c "source /home/ubuntu/Reddit-To-Twitter/bin/activate && python3 /home/ubuntu/Reddit-To-Twitter/topPostDay.py" >> /home/ubuntu/Reddit-To-Twitter/twitter_log.txt 2>&1 
 	
 	#upload Twitter logs to Discord
 	
-	5 17 * * * /home/ubuntu/twitter/forward_log.sh
+	5 17 * * * /home/ubuntu/Reddit-To-Twitter/forward_log.sh
 	
 	
