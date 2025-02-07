@@ -1,31 +1,31 @@
 # reddit-to-twitter
  
  
-Copy top post of the day from a subreddit to a twitter account (I will never call it X!). 
+#Copy top post of the day from a subreddit to a twitter account (I will never call it X!). 
 
-1) Install Python3
+#1) Install Python3
 
 	sudo apt install python3
 
-2) Create a python virtual environment in a directory
+#2) Create a python virtual environment in a directory
 
 	/usr/bin/python3 -m venv /home/ubuntu/twitter/
 
-3) Use the virtual python3 environment
+#3) Use the virtual python3 environment
 
 	source /home/ubuntu/twitter/bin/activate
 
-4) Install Twitter SDK and other pre-reqs
+#4) Install Twitter SDK and other pre-reqs
 
 	pip install tweepy
 	
 	pip install praw
 
-5) Create a file called config.py and save it in the same directory as your script. Enter Reddit and Twitter api credentials.
+#5) Create a file called config.py and save it in the same directory as your script. Enter Reddit and Twitter api credentials.
 
-6) Configure forward_log.sh with a discord webhook if you want logs forwarded. 
+#6) Configure forward_log.sh with a discord webhook if you want logs forwarded. 
 	
-7) Setup a schedule to run
+#7) Setup a schedule to run
 
 	crontab -e 
 	
