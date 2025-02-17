@@ -27,7 +27,7 @@
 	
 ### 7) Setup a schedule to run
 
-	crontab -e 
+crontab -e 
 	
 		#Twitter Post daily at noon
 		
