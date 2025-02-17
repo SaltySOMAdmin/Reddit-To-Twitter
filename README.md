@@ -1,7 +1,7 @@
 # Reddit-to-Twitter
  
  
-## Copy top post of the day from a subreddit to a twitter account (I will never call it X!). 
+## Copy top post of the day from a Subreddit to a Twitter account (I will never call it X!). 
 
 ### 1) Install Python3
 
